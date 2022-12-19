@@ -1,7 +1,22 @@
 ﻿using Fundamentos.Models;
 
-Condicionais condicionais = new Condicionais();
-condicionais.OperadorAnd();
+Calculadora calc = new Calculadora();
+calc.Somar(12, 3);
+calc.Subtrair(50, 2);
+calc.Mutiplicar(5, 6);
+calc.Dividir(18, 4);
+calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(9);
+
+
+
+
+
+// Condicionais condicionais = new Condicionais();
+// condicionais.OperadorAnd();
 
 
 
