@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 //caminho da classe
-namespace fundamentos.Models
+namespace Fundamentos.Common.Models
 {
     public class Pessoa
     {
