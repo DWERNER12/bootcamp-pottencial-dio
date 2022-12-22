@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 //caminho da classe
 namespace Fundamentos.Common.Models
 {
+    /// <summary>
+    /// Representa uma pessoa fisica
+    /// </summary>
     public class Pessoa
     {
         //Propriedades (nome,idade)
@@ -15,6 +18,9 @@ namespace Fundamentos.Common.Models
         public int Idade { get; set; }
 
         //metodo ou função "apresentar"
+        /// <summary>
+        /// Faz a pessoa se apresentar, dizendo seu nome e idade.
+        /// </summary>
         public void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos.");

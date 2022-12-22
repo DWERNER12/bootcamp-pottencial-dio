@@ -1,8 +1,23 @@
 ﻿using Fundamentos.Common.Models;
 
 
-    Menu menu = new Menu();
-    menu.menu();
+    ExemploLista list = new ExemploLista();
+    list.lista();
+
+
+
+
+
+
+    //ExemploArray array = new ExemploArray();
+    //array.testeArray();
+
+
+
+
+
+    //Menu menu = new Menu();
+    //menu.menu();
 
 
 
